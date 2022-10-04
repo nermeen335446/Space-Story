@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+	margin: 0;
+	box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+section
+{
+  padding: 2rem 7%;
+}
+
+header
+{
+  position: fixed;
+  top:0; left: -3px; right:0;
+  background: url(../img/2328698.jpg);
+  padding:1rem 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: var(--box-shadow);
+}
+header .logo
+{
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 6px;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+ header .logo i
+ {
+   color: #D83D3D;
+ }
+header .navbar
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header .navbar  a
+{
+  list-style: none;
+  margin-left: 20px;
+}
+header .navbar a
+{
+  text-decoration: none;
+  padding:  10px 28px;
+  color: #fff;
+  border-radius: 20px;
+}
+header .navbar a:hover,
+header .navbar a.active
+{
+  background: #fff;
+  color: #2b1055;
+}
+.home
+{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../img/space1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home .conten
+{  max-width: 200rem;
+}
+.home .conten h3
+{
+  font-size: 5.3rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.home .conten p
+{
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  letter-spacing: 1.5px;
+  color: #EFDFF0;
+  padding:.5rem 0;
+  line-height: 1.5;
+}
+.home .conten span
+{
+  font-size: 2.1rem;
+  color: #FFCDFF;
+  text-transform: capitalize;
+}
+.conten::after
+{
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 210px;
+	background-color: #D83D3D;
+	top: 201.5px;
+	left: 80px;
+}
+.btn
+{
+  background-color:#e86aba;
+	color: white;
+	text-decoration: none;
+	font-size: 27px;
+  display: inline-block;
+  border-radius: .9rem;
+	border: 4px solid transparent;
+	font-weight: bolder;
+	padding:.8rem 9rem;
+	transition: .4s; 
+}
+.btn:hover
+{
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+.about
+{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img
+{
+	height: auto;
+	width: 463px;
+}
+.about-text
+{
+	width: 550px;
+}
+.main
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2
+{
+	color: white;
+	font-size: 55px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5
+{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.Why::after
+{
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 20px;
+	background-color: #9EA9DF;
+	top: 888px;
+	left: 690px;
+}
+.about-text p
+{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 30px;
+	font-size: 19px;
+	margin-bottom: 35px;
+}
+button
+{
+	background-color:#e86aba;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 15px 50px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover
+{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+footer
+{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1)
+{
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2)
+{
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social
+{
+	display: flex;
+}
+.social a
+{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #e86aba;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover
+{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end
+{
+	position: absolute;
+	color: #e86aba;
+	bottom: 35px;
+	font-size: 14px; 
+}
